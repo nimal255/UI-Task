@@ -1,0 +1,315 @@
+<div class="sidenav" style="font-family: 'Poppins';">
+    <div style="text-align: center;">
+        <img src="assets/logo.png" alt="" width="135px">
+    </div>
+    <div style="margin-top: 30px;text-align: center;">
+        <a href="#Dashboard" class="active" style="padding-right: 45px;margin: 0px;"><img src="assets/dashboard.png"
+                alt="" width="13px">&nbsp;&nbsp;Dashboard</a>
+    </div>
+    <div style="margin-top: 30px;text-align: center;">
+        <a href="#Marketing"><img src="assets/bar-chart.png" alt="" width="15px">&nbsp;&nbsp;Marketing
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/down.png" alt="" width="10px"
+                height="6px"></a>
+    </div>
+    <div style="margin-top: 30px;text-align: center;">
+        <a href="#Classifieds"><img src="assets/file.png" alt="" width="15px">&nbsp;&nbsp;Classifieds
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/down.png" alt="" width="10px"
+                height="6px"></a>
+    </div>
+    <div style="margin-top: 30px;text-align: center;">
+        <a href="#quotes" routerLink="/quotes" style="padding-right:68px;margin: 0px;"><img src="assets/dollar.png"
+                alt="" width="19px">&nbsp;&nbsp;Quotes&nbsp;&nbsp;</a>
+    </div>
+    <div style="margin-top: 30px;text-align: center;">
+        <a href="#Support"><img src="assets/two-dollar-coins.png" alt="" width="15px">&nbsp;&nbsp;Support
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/down.png"
+                alt="" width="13px" height="6px"></a>
+    </div>
+    <div style="margin-top: 30px;text-align: center;">
+        <a href="#Configuration"><img src="assets/setting.png" alt="" width="15px">&nbsp;&nbsp;Configuration
+            &nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/down.png" alt="" width="10px" height="6px"></a>
+    </div>
+</div>
+
+
+<div class="main" style="font-family: 'Poppins';">
+    <nav class="navbar bg-body-tertiary">
+        <div style="height: 36px;margin-left: 10px;margin-bottom: 10px;">
+            <h4 class="navbar-brand">
+                <b>Dashboard</b>
+                <p class="navbar-brand" style="font-size: 12px;">
+                    Dashboard
+                </p>
+            </h4>
+        </div>
+        <div style="padding-right: 30px;display: flex;justify-content: space-around;align-items: center;">
+            <button type="button" class="btn position-relative" style="background-color: white;
+            border: 1px solid gainsboro;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;">
+                <img src="assets/bell.png" alt="" width="16px">
+                <span
+                    class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+                </span>
+            </button>
+            <span style="padding-left:10px;padding-bottom: 2px;">
+                <img src="assets/manager.png" alt="" width="33px"></span>
+            <span style="font-size: 12px;padding-left: 5px;"><b>Andre Salmanan</b><i
+                    class="fa-solid fa-caret-up fa-rotate-180"></i><br>
+            <span style="font-size: 11px;">Admin</span></span>
+        </div>
+    </nav>
+    <div class="card float-right">
+        <div class="col" style="display: flex;justify-content: space-between;margin:15px 50px 0px 50px;">
+            <button type="button" class="btn btn-secondary btn-sm"
+                style="font-size: 12px;background-color: white;color: black;border:1px solid #9698a5;">
+                <button type="button" class="btn btn-primary btn-sm"
+                    style="font-size: 12px;"><b>Miscellaneous</b></button>
+                &nbsp;&nbsp; <b>Quotes</b>
+            </button>
+            <button type="button" class="btn btn-warning btn-sm" style="font-size: 11px;color: white;background-color: rgb(255, 119, 0);"><b>Create New
+                    Quote</b></button>
+        </div>
+
+        <div style="display: flex;justify-content:space-evenly;height: 50%;margin-top: 30px;">
+            <div class="card1">
+                <div
+                    style="display:flex;justify-content: space-between; margin-top: 20px;padding-left: 75px;padding-right: 75px;">
+                    <h5 style="font-size: 15px;"><b>Quick Calculator</b></h5>
+                    <span style="font-size:12px;"><img src="assets/Frame.png" alt="" width="22px" height="22px"></span>
+                </div>
+
+                <div style="display:flex;justify-content: space-evenly;">
+                    <div class="dropdown">
+                        <span style="font-size: 12px;">Calculator</span><br />
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false"
+                            style="background-color: white;color: black;border: 1px solid grey;font-size: 13px;">
+                            Dealer FMV Calculator
+                        </button>
+                    </div>
+                    <div class="dropdown">
+                        <span style="font-size: 12px;">Purchase Options</span><br />
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false"
+                            style="background-color: white;color: black;border: 1px solid grey;font-size: 13px;">
+                            FMV Purchase Option
+                        </button>
+                    </div>
+
+                    <div class="dropdown">
+                        <span style="font-size: 12px;">Lease Terms</span><br />
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false"
+                            style="background-color: white;color: black;border: 1px solid grey;font-size: 13px;">
+                            24 months,12 months,6 months
+                        </button>
+                    </div>
+
+                    <div class="dropdown">
+                        <span style="font-size: 12px;">Advance Rentals</span><br />
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false"
+                            style="background-color: white;color: black;border: 1px solid grey;font-size: 13px;">
+                            2 Advance rentals,0 Advance
+                        </button>
+                    </div>
+                </div>
+
+                <div class="container" style="margin-top: 10px;margin-bottom: 20px;">
+                    <div class="slidecontainer">
+                        <label for="custom-slider" style="font-size: 13px;margin-left: 60px;">what is your sale
+                            total?</label><br>
+                        <div style="display: flex;justify-content: space-evenly;align-items: center;">
+                            <input type="range" min="1000" max="150000" value="60000" class="slider"
+                                oninput="this.nextElementSibling.value = this.value" data-toggle="tooltip" data-placement="top">
+                            <span><input class="form-control" type="text" value="$60000" 
+                                    style="border: 1px solid grey;font-size: 12px;"
+                                    aria-label="default input example"></span>
+                        </div>
+                    </div>
+                    <div class="container" style="display: flex;justify-content: space-between;width: 77%;margin: 0px;padding-left: 58px;">
+                        <span style="font-family: 'Poppins';font-size:12px;">$1,000</span>
+                        <span style="font-family: 'Poppins';font-size:12px;">$150,000</span>
+                    </div>
+                </div>
+
+                <div style="display: flex;justify-content: end;margin-right: 70px;margin-bottom: 15px;">
+                    <div>
+                        <button type="button" class="btn btn-outline"
+                            style="font-size: small;border:none;">Cancel</button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline"
+                            style="font-size:small;border:none;font-weight: bold;color:darkblue;">Reset</button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-warning custom-button"
+                            style="font-size: small;margin-left: 6px;background-color: white;font-weight: bold;color: orange;">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="display: flex;justify-content:space-evenly;height: 50%;margin-top: 30px;font-family: 'Poppins';">
+            <div class="card2">
+                <img src="assets/Image.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h5 style="font-size: 15px;"><b>3 Bedrooms in Cairo</b></h5>
+                    <p style="color: orange;font-size:13px;">$7,625</p>
+                </div>
+                <div class="container" style="display: flex;justify-content: start;">
+                    <img src="assets/single-bed.png" alt="" width="25px" height="25px"><span
+                        style="font-size: 14px;margin-left: 7px;">3 Bed</span>&nbsp;&nbsp;
+                    <img src="assets/shower.png" alt="" width="25px" height="25px"><span
+                        style="font-size: 14px;margin-left: 7px;">1 Bathroom</span>
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="assets/Image2.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h5 style="font-size: 15px;"><b>4 Bedrooms in Los Angels</b></h5>
+                    <p style="color: orange;font-size:13px;">$8,625</p>
+                </div>
+                <div class="container" style="display: flex;justify-content: start;">
+                    <img src="assets/single-bed.png" alt="" width="25px" height="25px"><span
+                        style="font-size: 14px;margin-left: 7px;">4 Bed</span>&nbsp;&nbsp;
+                    <img src="assets/shower.png" alt="" width="25px" height="25px"><span
+                        style="font-size: 14px;margin-left: 7px;">2 Bathroom</span>
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="assets/Image3.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h5 style="font-size: 15px;"><b>3 Bedrooms in Hotel abab</b></h5>
+                    <p style="color: orange;font-size:13px;">$7,625</p>
+                </div>
+                <div class="container" style="display: flex;justify-content: start;">
+                    <img src="assets/single-bed.png" alt="" width="25px" height="25px"><span
+                        style="font-size: 14px;margin-left: 7px;">3 Bed</span>&nbsp;&nbsp;
+                    <img src="assets/shower.png" alt="" width="25px" height="25px"><span
+                        style="font-size: 14px;margin-left: 7px;">1 Bathroom</span>
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex;justify-content:space-evenly;height: 50%;margin-top: 30px;font-family: 'Poppins';">
+            <div class="card3">
+                <div class="container" style="display: flex;justify-content: space-between;margin-top: 10px;">
+                    <h5 style="font-size: 15px;"><b>Announcements</b></h5>
+                    <p style="font-size:13px;">View All &nbsp;<i class="fa-solid fa-circle-chevron-right"></i></p>
+                </div>
+                <div class="container" style="display: flex;justify-content: start;">
+                    <table class="table" style="border: none;font-size: 13px;">
+                        <tbody>
+                            <tr>
+                                <td scope="col">
+                                    <div style="background-color: #585967;color: white;"
+                                        class="pt-2 pb-2 ps-3 pe-3 rounded d-flex flex-column justify-content-center">
+                                        <div class="d-flex justify-content-center">FEB</div>
+                                        <div class="d-flex justify-content-center">22</div>
+                                    </div>
+                                </td>
+                                <td scope="col"><span class="fw-bold" style="font-size: 14px;">Dream Program</span><br />
+                                    A new promotion has been released today! For more details, go..</td>
+
+                                <th scope="col"><i class="fa-solid fa-arrow-right"></i></th>
+                            </tr>
+                            <tr>
+                                <td scope="col">
+                                    <div style="background-color: #585967;color: white;"
+                                        class="pt-2 pb-2 ps-3 pe-3 rounded d-flex flex-column justify-content-center">
+                                        <div class="d-flex justify-content-center">FEB</div>
+                                        <div class="d-flex justify-content-center">24</div>
+                                    </div>
+                                </td>
+                                <td scope="col"><span class="fw-bold" style="font-size: 14px;">NEC Aspire System </span><br />
+                                    Auction on NEC ASPIRE SYSTEM is ending soon</td>
+
+                                <th scope="col"><i class="fa-solid fa-arrow-right"></i></th>
+                            </tr>
+                            <tr>
+                                <td scope="col">
+                                    <div style="background-color: #585967;color: white;"
+                                        class="pt-2 pb-2 ps-3 pe-3 rounded d-flex flex-column justify-content-center">
+                                        <div class="d-flex justify-content-center">FEB</div>
+                                        <div class="d-flex justify-content-center">25</div>
+                                    </div>
+                                </td>
+                                <td scope="col"><span class="fw-bold" style="font-size: 14px;">Dream Program </span><br />
+                                    A new promotion has been released today! For more details, go..</td>
+
+                                <th scope="col"><i class="fa-solid fa-arrow-right"></i></th>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card3">
+                <div class="container" style="display: flex;justify-content: space-between;margin-top: 10px;">
+                    <h5 style="font-size: 15px;"><b>Top Dealers</b></h5>
+                    <p style="font-size:13px;">View All &nbsp;<i class="fa-solid fa-circle-chevron-right"></i></p>
+                </div>
+                <div class="container" style="display: flex;justify-content: start;">
+                    <table class="table" style="border: none;font-size: 13px;">
+
+                        <tbody>
+                            <tr>
+                                <td scope="col" style="width:10px">
+                                    <div style="background-color: #eeeef3;color: white;"
+                                        class="pt-2 pb-2 ps-3 pe-3 rounded d-flex flex-column justify-content-center">
+                                        <div class="d-flex justify-content-center" style="width: 33px;height: 40px;">
+                                            <img src="assets/TCS.NS.png" alt="" width="26px" height="22px"
+                                                style="margin-top: 10px;"></div>
+                                    </div>
+                                </td>
+                                <td scope="col"><span class="fw-bold">TCS</span><br />
+                                    <span style="font-size: 11px;">Quote Count:3</span>
+                                </td>
+
+                                <th scope="col" style="font-size: 11px;">$29,612</th>
+                            </tr>
+                            <tr>
+                                <td scope="col">
+                                    <div style="background-color: #eeeef3;color: white;"
+                                        class="pt-2 pb-2 ps-3 pe-3 rounded d-flex flex-column justify-content-center">
+                                        <div class="d-flex justify-content-center" style="width: 33px;height: 40px;">
+                                            <img src="assets/Intel.svg" alt="" width="33px" height="33px"></div>
+                                    </div>
+                                </td>
+                                <td scope="col"><span class="fw-bold">Intel Corporation</span><br />
+                                    <span style="font-size: 11px;">Quote Count:3</span>
+                                </td>
+
+                                <th scope="col" style="font-size: 11px;">$29,612</th>
+                            </tr>
+                            <tr>
+                                <td scope="col">
+                                    <div style="background-color: #eeeef3;color: white;"
+                                        class="pt-2 pb-2 ps-3 pe-3 rounded d-flex flex-column justify-content-center">
+                                        <div class="d-flex justify-content-center" style="width: 33px;height: 40px;">
+                                            <img src="assets/huawei.svg" alt="" width="30px" height="30px"></div>
+                                    </div>
+                                </td>
+                                <td scope="col"><span class="fw-bold">Huawei</span><br />
+                                    <span style="font-size: 11px;">Quote Count:3</span>
+                                </td>
+
+                                <th scope="col" style="font-size: 11px;">$29,612</th>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>

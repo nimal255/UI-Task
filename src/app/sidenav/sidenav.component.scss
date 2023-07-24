@@ -1,0 +1,190 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    font-family: 'Poppins',sans-serif;
+    background-color:  rgb(239, 236, 236);
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(16, 16, 137);
+    overflow: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav a.active {
+    background-color: #130a3d;
+    color: white;
+  }
+  
+  .sidenav a:hover:not(.active) {
+    background-color: #130a3d;
+    color: white;
+  }
+
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    // background-color: #e6e4e4;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 11px;}
+    .navbar-brand {font-size: 11px;}
+  }
+
+  .title {
+
+      margin-bottom: 50px;
+      text-transform: uppercase;
+  }
+  
+  .card-block {
+      font-size: 1em;
+      position: relative;
+      margin: 0;
+      padding: 1em;
+      border: none;
+      border-top: 1px solid rgba(34, 36, 38, .1);
+      box-shadow: none;
+      font-family: 'Poppins',sans-serif
+       
+  }
+  .card {
+      font-size: 1em;
+      overflow: hidden;
+      padding: 5;
+     
+      border: none;
+      border-radius: .28571429rem;
+      box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+      margin-top:20px;
+      font-family: 'Poppins',sans-serif;
+  }
+
+  .card1{
+    border: 1px solid rgb(231, 226, 226);
+    transition: 0.3s;
+    width: 92%;
+    height: 20%;
+    border-radius: 7px;
+    font-family: 'Poppins',sans-serif;
+    background-color: #DCDCF2;
+  }
+
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card2 {
+    // box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 1px solid rgb(231, 226, 226);
+    transition: 0.3s;
+    width: 28%;
+    // height: 70%;
+    border-radius: 7px;
+    font-family: 'Poppins',sans-serif
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card3 {
+    // box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 1px solid rgb(231, 226, 226);
+    transition: 0.3s;
+    width: 44%;
+    // height: 70%;
+    border-radius: 7px;
+    font-family: 'Poppins',sans-serif
+  }
+  
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+//   .slidecontainer {
+//     width: 80%;
+//   }
+
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 70%;
+    height: 7px;
+    background: #29A000;
+    outline: none;
+    opacity: 0.7;
+    border-radius: 5px;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background-color: #d4d4d5;
+    background: url('../../assets/left-and-right.png');
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Position the image at the center */
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: url('../../assets/left-and-right.png');
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Position the image at the center */
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+  .slider { padding: 1px; border: 1px solid #ddd; color: #555; display: block; }
+
+  .custom-button:hover{
+color: orange;
+  }
+  .custom-button:focus,
+  .custom-button::after{
+   color: orange;
+  }
+
+
